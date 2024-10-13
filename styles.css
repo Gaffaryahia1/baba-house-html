@@ -1,0 +1,78 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 20px;
+}
+
+  /* Header */
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+  /* Navigation Links */
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #0056b3;
+}
+
+  /* House Details */
+div img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 10px auto;
+}
+
+h2 {
+    margin: 20px 0 10px;
+    color: #444;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+  /* Link to Original Listing */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+  
+  /* Distance Styling */
+h2 + p {
+    font-size: 1.2em;
+    color: #666;
+}
